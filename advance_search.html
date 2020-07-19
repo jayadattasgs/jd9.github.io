@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="google.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light navbar-light" style="background-color: #e9e6e6;">
+        <ul class="navbar-nav ml-auto mt-0.5">
+            <li class="nav-item">
+                <a class="navbar-header"
+                    href="index.html">
+                    <img src="googleicon.png" style="width: 80px;">
+                </a>
+            </li>
+        </ul>
+
+        <div class="collapse navbar-collapse" id="navbar">
+
+            <ul class="navbar-nav ml-auto mt-2">
+
+                <li class="nav-item"><a class="nav-link"
+                        href="index.html"><span>Google
+                            Search</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <h2 class="red">Advanced Search</h2>
+    <hr id=line>
+    <p id=find_line>Find pages with...</p>
+    <div class="col-xs-1" align="left">
+        <form action="https://www.google.com/search?">
+            <label for="fname">all these words:</label>
+            <input class="input" type="text" id="all_words" name="as_q"><br>
+            <label for="lname">this exact word or phrase:</label>
+            <input class="input" type="text" id="exact_words" name="as_epq"><br>
+            <label for="lname">any of these words:</label>
+            <input class="input" type="text" id="any_words" name="as_oq"><br>
+            <label for="lname">none of these words:</label>
+            <input class="input" type="text" id="none_words" name="as_eq"><br>
+
+            <input id="ad_button" type="submit" class="btn btn-primary" value="Advanced search">
+
+        </form>
+    </div>
+</body>
