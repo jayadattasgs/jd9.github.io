@@ -30,6 +30,7 @@ main
   width:270px;
   
 }
+.input
 
 #google_image{
   margin-top: 113px;
@@ -107,4 +108,13 @@ label{
 }
 .col-xs-1{
   margin-top: -30px;
+}
+.input:focus{
+border-color:rgb(146, 180, 255);
+border-width: 2px;
+box-shadow: white;
+background-color: white;
+}
+.input:hover{
+  border-color:white ;
 }
