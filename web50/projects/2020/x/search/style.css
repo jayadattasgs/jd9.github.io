@@ -115,7 +115,7 @@ label{
 .col-xs-1{
   margin-top: -30px;
 }
-.input:focus{
+.input1:focus{
 border-color:rgb(146, 180, 255);
 border-width: 2px;
 box-shadow: white;
