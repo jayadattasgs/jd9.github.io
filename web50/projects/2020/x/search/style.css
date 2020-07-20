@@ -14,7 +14,7 @@ main
     width: 570px;
     border-radius: 20px;
     border-width: 1px;
-    border-color:lightgrey;
+    border-color:lightgray;
     margin-top: -20px;
     padding: 15px;
     margin: 30px;
@@ -23,6 +23,12 @@ main
     flex: 0 0 200px;
     margin-left: 10px;
     margin-bottom: 15px;
+    background-image: url("search.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    background-position-x: 15px;
+    padding-left: 40px;
 }
 #google_icon{
   margin-top: 80px;
@@ -115,6 +121,22 @@ border-width: 2px;
 box-shadow: white;
 background-color: white;
 }
-.input:hover{
+.input1:hover{
   border-color:white ;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
 }
