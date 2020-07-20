@@ -12,9 +12,12 @@ main
     display: inline-block;
     /* override Bootstrap's 100% width for form controls */
     width: 570px;
+    
+    box-shadow: lightgray;
+    background-color: white;
     border-radius: 20px;
     border-width: 1px;
-    border-color:lightgray;
+    border-color:solid lightgray;
     margin-top: -20px;
     padding: 15px;
     margin: 30px;
@@ -29,6 +32,8 @@ main
     background-size: 16px;
     background-position-x: 15px;
     padding-left: 40px;
+    outline-color: 0 0 1px lightgray;
+  
 }
 #google_icon{
   margin-top: 80px;
@@ -47,9 +52,7 @@ main
 #input:hover{
     box-shadow:0px 1px 2px 3px  lightgray;
 }
-#input:focus{
-  border-color: white;
-}
+
 
 #submit{
   margin-right: 20px;
@@ -114,13 +117,13 @@ label{
 .col-xs-1{
   margin-top: -30px;
 }
-.input1:focus{
+.ad_input:focus{
 border-color:rgb(146, 180, 255);
 border-width: 2px;
-box-shadow: white;
+box-shadow: lightgray;
 background-color: white;
 }
-.input1:hover{
+.ad_input1:hover{
   border-color:lightgray ;
 }
 
