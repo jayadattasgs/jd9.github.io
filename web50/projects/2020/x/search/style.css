@@ -16,7 +16,7 @@ main
     box-shadow: lightgray;
     background-color: white;
     border-radius: 20px;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color:solid lightgray;
     margin-top: -20px;
     padding: 15px;
@@ -33,6 +33,7 @@ main
     background-position-x: 15px;
     padding-left: 40px;
     outline-color: 0 0 1px lightgray;
+    outline: none;
   
 }
 #google_icon{
@@ -52,7 +53,12 @@ main
 #input:hover{
     box-shadow:0px 1px 2px 3px  lightgray;
 }
+#input:focus{
+  border-width: 1px;
+box-shadow: lightgray;
 
+background-color: white;
+}
 
 #submit{
   margin-right: 20px;
