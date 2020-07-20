@@ -18,8 +18,8 @@ main
     border-radius: 20px;
     border-width: 0.5px;
     border-color:solid lightgray;
-    margin-top: -20px;
-    padding: 15px;
+    margin-top: -10px;
+    padding: 22px;
     margin: 30px;
     width: 580px;
     height: 40px;
@@ -32,19 +32,19 @@ main
     background-size: 16px;
     background-position-x: 15px;
     padding-left: 40px;
-    outline-color: 0 0 1px lightgray;
+    outline-color: 0 0 1px rgb(233, 233, 233);
     outline: none;
   
 }
 #google_icon{
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: -50px;
   width:270px;
   
 }
 
 #google_image{
-  margin-top: 113px;
+  margin-top: 133px;
   margin-bottom: -50px;
   padding-bottom: 35px;
   width:325px;
@@ -133,3 +133,23 @@ background-color: white;
   border-color:lightgray ;
 }
 
+#submit,#imlucky{
+  color: rgb(105, 105, 105);
+  margin-top: 15px;
+}
+#submit:hover{
+  outline-color: black;
+  border-color: rgb(160, 159, 159);
+  background-color: rgb(245, 245, 245);
+}
+#imlucky:hover{
+  outline-color: black;
+  border-color: rgb(160, 159, 159);
+  background-color: rgb(245, 245, 245);
+}
+
+  #submit:hover{
+    outline-color: black;
+    border-color: rgb(160, 159, 159);
+    background-color: rgb(245, 245, 245);
+  }
