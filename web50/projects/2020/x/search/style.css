@@ -14,10 +14,11 @@ main
     width: 570px;
     
     box-shadow: lightgray;
-    background-color: white;
+
+    
     border-radius: 20px;
-    border-width: 0.5px;
-    border-color:solid lightgray;
+    border-width: 0.25px;
+    border: 0.25px solid rgb(233, 232, 232);
     margin-top: -10px;
     padding: 22px;
     margin: 30px;
@@ -32,7 +33,7 @@ main
     background-size: 16px;
     background-position-x: 15px;
     padding-left: 40px;
-    outline-color: 0 0 1px rgb(233, 233, 233);
+   outline-color:lightgray;
     outline: none;
   
 }
@@ -54,10 +55,11 @@ main
     box-shadow:0px 1px 2px 3px  lightgray;
 }
 #input:focus{
-  border-width: 1px;
-box-shadow: lightgray;
 
-background-color: white;
+  border-width: 0.01px;
+  border-color:solid lightgray;
+  box-shadow: lightgray;
+  background-color: white;
 }
 
 #submit{
