@@ -123,11 +123,16 @@ label{
 .col-xs-1{
   margin-top: -30px;
 }
+.ad_input{
+  width: 550px;
+  margin: 5px;
+}
 .ad_input:focus{
 border-color:rgb(146, 180, 255);
 border-width: 2px;
 box-shadow: lightgray;
 background-color: white;
+
 }
 .ad_input1:hover{
   border-color:lightgray ;
